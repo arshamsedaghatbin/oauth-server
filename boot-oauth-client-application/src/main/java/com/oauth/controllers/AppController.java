@@ -60,12 +60,11 @@ public class AppController {
         headers1.add("Authorization", "Bearer " + token);
         HttpEntity<String> entity = new HttpEntity<>(headers1);
 
-        ResponseEntity<Object> employees = restTemplate.exchange(url, HttpMethod.POST, entity, Object.class);
-        System.out.println(employees.getBody());
-//		Employee[] employeeArray = employees.getBody();
+        ResponseEntity<Object> result = restTemplate.exchange(url, HttpMethod.POST, entity, Object.class);
+        System.out.println(result.getBody());
 
         ModelAndView model = new ModelAndView("result");
-        model.addObject("result", employees.getBody());
+        model.addObject("result", result.getBody());
         return model;
     }
 }
