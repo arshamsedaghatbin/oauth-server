@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/boot-oauth-client-application/boot-client-application.iml" filepath="$PROJECT_DIR$/boot-oauth-client-application/boot-client-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-oauth2/boot-oauth2-password-authorization-server.iml" filepath="$PROJECT_DIR$/boot-oauth2/boot-oauth2-password-authorization-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ouath-sever.iml" filepath="$PROJECT_DIR$/.idea/ouath-sever.iml" />
+    </modules>
+  </component>
+</project>
